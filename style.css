@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=DynaPuff:wght@400..700&display=swap');
+
+ body {
+      background-color: #f9f9e1;
+      margin: 0;
+      display: flex;
+      justify-content: flex-start; /* card starts on left */
+      align-items: center;
+      height: 100vh;
+    }
+
+.container {
+      display: flex;
+      align-items: center;
+      gap: 500px; /* space between card and jar (later) */
+     /*height: 50vh;
+      padding-top: 150px;*/
+}
+
+.card {
+      background: #fff;
+      padding: 35px 55px;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin: 50px;
+}
+
+.title {
+      font-size: 36px;
+      margin-bottom: 8px;
+      font-family: Cherry Bomb One, cursive;
+}
+
+.title .memory-text {
+      color: #cba97b; /* choco brown */
+}
+
+.title .jar-text {
+      color: #545454; /* blackish grey */
+}
+
+.subtitle {
+      font-style: italic;
+      color: #a6a6a6;
+      margin-bottom: 22px;
+      font-size: 16px;
+      font-family: DynaPuff, cursive;
+}
+
+.btn {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #c1cd97;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 6px #999;
+}
+
+
+.btn:active {
+  background-color: #c1cd97;
+  box-shadow: 0 3px #c4c5c2;
+  transform: translateY(4px);
+}
+
+.jar-illus {
+    width: 320px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.jar-img {
+    width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.10));
+}
